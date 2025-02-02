@@ -35,6 +35,7 @@ class c3{
 		System.out.println("f3");
 		ob2.f2();
 	}
+	//ob2.f2(); y can not write here do in method
 }
 @SpringBootApplication
 public class InjectedApplication {
@@ -43,7 +44,7 @@ public class InjectedApplication {
 
 	ApplicationContext ctx=SpringApplication.run(InjectedApplication.class, args);
 	c3 ob3=ctx.getBean(c3.class);
-	ob3.f3();
+	ob3.f3(); // o/p f3 f2
 
 	}
 
