@@ -27,6 +27,7 @@ class c3{
 
 	c1 ob2;  //also y can do loose couple c2 rplace to c1
 	@Autowired  //setter injection
+	//@Qualifier //also y can use for no confusion for diff classes
 	public void setOb2(c1 ob2) {
 		this.ob2 = ob2;
 	}
