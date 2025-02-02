@@ -25,9 +25,9 @@ class c3{
 		this.ob2 = ob2;
 	}*/
 
-	c2 ob2;
+	c1 ob2;  //also y can do loose couple c2 rplace to c1
 	@Autowired  //setter injection
-	public void setOb2(c2 ob2) {
+	public void setOb2(c1 ob2) {
 		this.ob2 = ob2;
 	}
 
