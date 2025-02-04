@@ -6,7 +6,7 @@
 
     <!-- bean definitions here -->
 
-    <bean class="org.shubham2.xyz1" id="id1">
+    <bean class="org.shubham2.xyz1" id="id1"> <!-- y are creating object here of xyz1 -->
     <property name="age" value="45"/>
     </bean>
     <bean class="org.shubham2.xyz2" id="id2"></bean>
